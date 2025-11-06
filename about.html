@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Mphenama Butchery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="images/mphenama-logo.png" alt="Mphenama Butchery Logo" class="logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="products.html" class="nav-link"><i class="fas fa-drumstick-bite"></i> Our Products</a></li>
+                    <li><a href="about.html" class="nav-link"><i class="fas fa-info-circle"></i> About Us</a></li>
+                    <li><a href="contact.html" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="#" class="cta-button"><i class="fas fa-phone"></i> Call Now</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="about-page">
+        <section id="about-hero" class="fade-in">
+            <h1>About Mphenama Butchery</h1>
+            <p>Delivering Quality Meats Since 2003</p>
+        </section>
+
+        <section id="our-story" class="slide-in-left">
+            <h2>Our Story</h2>
+            <p>Mphenama Butchery was founded in 2024 with a simple mission: to provide our community with the highest quality meats sourced from local farms. Over the months, we've grown from a small family-run shop to a beloved local institution, never compromising on our commitment to quality and customer service.</p>
+        </section>
+
+        <section id="our-values" class="slide-in-right">
+            <h2>Our Values</h2>
+            <ul>
+                <li><strong>Quality:</strong> We source only the finest meats from trusted local farms.</li>
+                <li><strong>Community:</strong> We're committed to supporting our local farmers and community.</li>
+                <li><strong>Sustainability:</strong> We strive to minimize our environmental impact in all our operations.</li>
+                <li><strong>Customer Service:</strong> We believe in building lasting relationships with our customers through exceptional service.</li>
+            </ul>
+        </section>
+
+        <section id="team-slideshow">
+            <h2>Meet Our Team</h2>
+            <div class="slideshow-container">
+                <div class="slide fade">
+                    <div class="team-image-container">
+                        <img src="images/team/john.jpg" alt="John Doe" class="team-image">
+                    </div>
+                    <div class="text">
+                        <B><h3>Walter</h3></B>
+                        <p>Master Butcher</p>
+                    </div>
+                </div>
+
+                <div class="slide fade">
+                    <div class="team-image-container">
+                        <img src="images/team/meet-manager2.jpg" alt="Jane Smith" class="team-image">
+                    </div>
+                    <div class="text">
+                        <B><h3>Ranthumeng</h3></B>
+                        <p>Customer Service Manager</p>
+                    </div>
+                </div>
+
+                <div class="slide fade">
+                    <div class="team-image-container">
+                        <img src="images/team/quality.jpg" alt="Mike Johnson" class="team-image">
+                    </div>
+                    <div class="text">
+                        <B><h3>Robson</h3></B>
+                        <p>Quality Control Specialist</p>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section footer-logo">
+                <img src="images/mphenama-logo.png" alt="Mphenama Butchery Logo" class="footer-logo-img">
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Our Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Main Street, Johannesburg, South Africa</p>
+                <p><i class="fas fa-phone"></i> +27 11 234 5678</p>
+                <p><i class="fas fa-envelope"></i> info@mphenama.co.za</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/mphenama" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com/mphenama" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/mphenama" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Mphenama Butchery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/animations.js"></script>
+    <script src="js/slideshow.js"></script>
+
+</body>
+</html>
